@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아기 사자 자기소개</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1>아기 사자 자기소개</h1>
+        <p class="page-lead">멋쟁이 사자처럼 12기 아기 사자들의 요약과 상세 정보를 한 화면에서 확인할 수 있습니다.</p>
+    </header>
+
+    <main class="page-main">
+        <section class="summary-section page-region page-region--summary" aria-labelledby="summary-heading">
+            <h2 id="summary-heading">아기 사자 자기소개 요약 카드</h2>
+            <div class="summary-grid">
+                <article class="summary-card summary-card--self" aria-labelledby="sum-name-1" aria-label="내 자기소개 카드">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/chj/240/240" width="120" height="120" alt="최정환 프로필 사진">
+                        <span class="summary-card__badge">HTML / CSS</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-1" class="summary-card__name">최정환</h3>
+                        <p class="summary-card__role">Frontend</p>
+                        <p class="summary-card__tagline">컴퓨터 공학과 GBT를 전공하고 있고, 프론트엔드를 개발하고 있습니다. 창업을 목표로 하고 있습니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-2">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/ksy/240/240" width="120" height="120" alt="김서연 프로필 사진">
+                        <span class="summary-card__badge">Node.js</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-2" class="summary-card__name">김서연</h3>
+                        <p class="summary-card__role">Backend</p>
+                        <p class="summary-card__tagline">서비스 안정성과 API 설계에 관심이 많고, 팀 단위 협업을 중시합니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-3">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/pjh/240/240" width="120" height="120" alt="박준호 프로필 사진">
+                        <span class="summary-card__badge">Figma</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-3" class="summary-card__name">박준호</h3>
+                        <p class="summary-card__role">Design</p>
+                        <p class="summary-card__tagline">사용자 흐름을 단순하게 만드는 인터페이스를 지향합니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-4">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/lde/240/240" width="120" height="120" alt="이다은 프로필 사진">
+                        <span class="summary-card__badge">Vue</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-4" class="summary-card__name">이다은</h3>
+                        <p class="summary-card__role">Frontend</p>
+                        <p class="summary-card__tagline">컴포넌트 구조와 상태 관리 패턴을 익히며 성장 중입니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-5">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/jhw/240/240" width="120" height="120" alt="장현우 프로필 사진">
+                        <span class="summary-card__badge">Swift</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-5" class="summary-card__name">장현우</h3>
+                        <p class="summary-card__role">Mobile</p>
+                        <p class="summary-card__tagline">iOS 네이티브와 크로스플랫폼 경험을 넓혀 가고 있습니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-6">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/yja/240/240" width="120" height="120" alt="윤지아 프로필 사진">
+                        <span class="summary-card__badge">Python</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-6" class="summary-card__name">윤지아</h3>
+                        <p class="summary-card__role">Data</p>
+                        <p class="summary-card__tagline">데이터 전처리와 시각화로 인사이트를 전달하는 일을 좋아합니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-7">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/osj/240/240" width="120" height="120" alt="오세진 프로필 사진">
+                        <span class="summary-card__badge">Docker</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-7" class="summary-card__name">오세진</h3>
+                        <p class="summary-card__role">DevOps</p>
+                        <p class="summary-card__tagline">배포 자동화와 모니터링으로 운영 품질을 높이는 데 집중합니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-8">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/hsy/240/240" width="120" height="120" alt="한소율 프로필 사진">
+                        <span class="summary-card__badge">Notion</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-8" class="summary-card__name">한소율</h3>
+                        <p class="summary-card__role">PM</p>
+                        <p class="summary-card__tagline">요구사항 정리와 일정 조율로 팀이 한 방향으로 움직이게 합니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-9">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/bmj/240/240" width="120" height="120" alt="배민준 프로필 사진">
+                        <span class="summary-card__badge">OWASP</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-9" class="summary-card__name">배민준</h3>
+                        <p class="summary-card__role">Security</p>
+                        <p class="summary-card__tagline">취약점 점검과 안전한 인증 흐름 설계에 관심이 많습니다.</p>
+                    </section>
+                </article>
+
+                <article class="summary-card" aria-labelledby="sum-name-10">
+                    <figure class="summary-card__figure">
+                        <img class="summary-card__photo" src="https://picsum.photos/seed/ncw/240/240" width="120" height="120" alt="노채원 프로필 사진">
+                        <span class="summary-card__badge">Cypress</span>
+                    </figure>
+                    <section class="summary-card__body" aria-label="요약 정보">
+                        <h3 id="sum-name-10" class="summary-card__name">노채원</h3>
+                        <p class="summary-card__role">QA</p>
+                        <p class="summary-card__tagline">E2E 테스트로 회귀를 줄이고 릴리스 신뢰도를 높입니다.</p>
+                    </section>
+                </article>
+            </div>
+        </section>
+
+        <section class="detail-section page-region page-region--detail" aria-labelledby="detail-heading">
+            <h2 id="detail-heading">아기 사자 상세 자기소개</h2>
+                <article class="detail-card" aria-labelledby="detail-name-1">
+                    <h3 id="detail-name-1" class="detail-card__title">최정환</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">최정환</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Frontend</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">대학에서 컴퓨터 공학과 GBT를 전공하고 있으며, 사용자 화면을 만드는 프론트엔드 개발에 집중하고 있습니다. 아직 배울 것이 많지만 꾸준히 실력을 쌓아가고 있으며, 장기적으로는 창업을 목표로 두고 있습니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>HTML / CSS</li>
+                                    <li>JavaScript</li>
+                                    <li>React</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">abok2836@naver.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://github.com/MONG-SIL?tab=repositories" target="_blank" rel="noopener noreferrer">github.com/MONG-SIL</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-8611-2972</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">한 번 시작한 건 대충 마무리하기보다는 할 수 있는 한 열심히 해보겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-2">
+                    <h3 id="detail-name-2" class="detail-card__title">김서연</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">김서연</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Backend</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">RESTful API 설계와 데이터베이스 모델링을 중심으로 백엔드 기능을 구현합니다. 에러 처리와 로깅을 꼼꼼히 다루며, 팀 내 코드 리뷰를 통해 품질을 맞추는 협업을 중요하게 생각합니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Node.js</li>
+                                    <li>PostgreSQL</li>
+                                    <li>캐시 전략</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">kim.sy@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/kim-sy-dev</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-2341-8890</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">견고한 서버로 사용자 경험의 기반을 다지겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-3">
+                    <h3 id="detail-name-3" class="detail-card__title">박준호</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">박준호</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Design</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">와이어프레임으로 정보 구조를 먼저 잡고, 시안 단계에서 일관된 색·타이포 톤을 유지합니다. 개발자와 소통하며 구현 가능한 컴포넌트 단위로 나누는 작업을 즐깁니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Figma</li>
+                                    <li>디자인 시스템</li>
+                                    <li>모션 가이드</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">park.jh@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://www.behance.net" target="_blank" rel="noopener noreferrer">behance.net/parkjh-ui</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-5512-3044</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">사용자가 이해하기 쉬운 화면을 최우선으로 하겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-4">
+                    <h3 id="detail-name-4" class="detail-card__title">이다은</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">이다은</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Frontend</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">재사용 가능한 UI 컴포넌트와 명확한 상태 흐름을 다루는 프론트엔드 개발자입니다. API 연동과 폼 검증 등 실사용 시나리오를 고려한 구현을 지향합니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Vue</li>
+                                    <li>TypeScript</li>
+                                    <li>Vite</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">lee.de@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com/lee-de-vue</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-7788-1203</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">기술 부채를 줄이는 코드를 지향하겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-5">
+                    <h3 id="detail-name-5" class="detail-card__title">장현우</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">장현우</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Mobile</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">모바일 앱의 성능과 접근성을 함께 고려하며 개발합니다. 화면 전환 애니메이션과 메모리 사용을 점검하는 습관을 들이고 있습니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Swift</li>
+                                    <li>SwiftUI</li>
+                                    <li>푸시 알림</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">jang.hw@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://developer.apple.com" target="_blank" rel="noopener noreferrer">apps.apple.com/dev/janghw</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-9021-4412</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">매끄러운 모바일 경험을 만들겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-6">
+                    <h3 id="detail-name-6" class="detail-card__title">윤지아</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">윤지아</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Data</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">지표 정의부터 리포트 작성까지 데이터 기반 의사결정을 돕습니다. 이해관계자가 바로 읽을 수 있도록 시각화와 설명 문구를 함께 준비합니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Python</li>
+                                    <li>pandas</li>
+                                    <li>시각화</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">yoon.ja@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://www.kaggle.com" target="_blank" rel="noopener noreferrer">kaggle.com/yoonja</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-3300-7711</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">숫자 뒤의 맥락을 놓치지 않겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-7">
+                    <h3 id="detail-name-7" class="detail-card__title">오세진</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">오세진</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">DevOps</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">CI/CD 파이프라인과 인프라 코드화로 배포 리스크를 줄입니다. 스테이징 환경과 롤백 절차를 문서로 남기는 것을 습관화했습니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Docker</li>
+                                    <li>Kubernetes</li>
+                                    <li>GitHub Actions</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">oh.sj@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://gitlab.com" target="_blank" rel="noopener noreferrer">gitlab.com/ohsj-infra</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-6612-0098</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">장애 시간을 줄이는 운영을 목표로 하겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-8">
+                    <h3 id="detail-name-8" class="detail-card__title">한소율</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">한소율</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">PM</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">스프린트 계획과 이해관계자 소통으로 프로젝트 속도를 맞춥니다. 범위 조정이 필요할 때는 근거와 함께 대안을 제시하는 편입니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Notion</li>
+                                    <li>문서화</li>
+                                    <li>로드맵</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">han.sy@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://www.notion.so" target="_blank" rel="noopener noreferrer">notion.so/hansy-pm</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-4480-2156</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">팀이 같은 그림을 보게 만드는 역할을 하겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-9">
+                    <h3 id="detail-name-9" class="detail-card__title">배민준</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">배민준</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">Security</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">위협 모델링과 보안 점검 체크리스트로 서비스를 보호합니다. 인증·인가 흐름과 입력값 검증을 우선 검토하는 편입니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>OWASP</li>
+                                    <li>OAuth 2.0</li>
+                                    <li>암호화</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">bae.mj@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://owasp.org" target="_blank" rel="noopener noreferrer">owasp.org/profile/bmj</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-1199-5533</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">보안은 기능과 함께 설계하겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+
+                <article class="detail-card" aria-labelledby="detail-name-10">
+                    <h3 id="detail-name-10" class="detail-card__title">노채원</h3>
+                    <dl class="detail-card__fields">
+                        <div class="detail-field">
+                            <dt class="detail-field__label">이름</dt>
+                            <dd class="detail-field__value">노채원</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">소속 파트</dt>
+                            <dd class="detail-field__value">QA</dd>
+                        </div>
+                        <div class="detail-field">
+                            <dt class="detail-field__label">동아리명</dt>
+                            <dd class="detail-field__value">멋쟁이 사자처럼</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">자기소개</dt>
+                            <dd class="detail-field__value detail-field__value--paragraph">시나리오 기반 테스트로 주요 사용자 흐름을 검증합니다. 회귀 테스트 케이스를 꾸준히 보강해 릴리스 직전 이슈를 줄이는 데 집중합니다.</dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">관심 기술</dt>
+                            <dd class="detail-field__value">
+                                <ul class="skill-list">
+                                    <li>Cypress</li>
+                                    <li>테스트 자동화</li>
+                                    <li>품질 지표</li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">연락처</dt>
+                            <dd class="detail-field__value">
+                                <ul class="contact-list">
+                                    <li class="contact-list__item"><span class="contact-list__key">이메일</span> <span class="contact-list__val">ro.cw@example.com</span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">웹사이트</span> <span class="contact-list__val"><a href="https://www.cypress.io" target="_blank" rel="noopener noreferrer">cypress.io/ro-cw-qa</a></span></li>
+                                    <li class="contact-list__item"><span class="contact-list__key">휴대전화</span> <span class="contact-list__val">010-8822-6401</span></li>
+                                </ul>
+                            </dd>
+                        </div>
+                        <div class="detail-field detail-field--block">
+                            <dt class="detail-field__label">한 마디</dt>
+                            <dd class="detail-field__value">버그를 줄이고 신뢰할 수 있는 릴리스를 돕겠습니다.</dd>
+                        </div>
+                    </dl>
+                </article>
+        </section>
+    </main>
+</body>
+</html>
