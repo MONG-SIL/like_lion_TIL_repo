@@ -136,17 +136,8 @@ useContext 없이도 필요한 만큼만 위로 올리기만으로 공유 문제
 5. 2026-05-23 23:55:50 URL 필터·정렬 적용 (?part=Frontend&sort=name, Frontend 8명 이름순)
 ![결과 이미지](<스크린샷 2026-05-23 오후 11.55.50.png>)
 
-## 4. 프로젝트에서의 연결
 
-| 파일 | 역할 |
-|------|------|
-| App.jsx | BrowserRouter, useLions, 라우트 정의 |
-| pages/ListPage.jsx | 컨트롤·폼·요약 그리드, useViewOptions |
-| pages/DetailPage.jsx | useParams로 상세 표시, 목록 복귀 Link |
-| hooks/useViewOptions.js | 쿼리 part, sort, search 읽기/쓰기 |
-| components/LionSummaryCard.jsx | Link로 상세 이동, state.from으로 목록 URL 보존 |
-
-## 5. 느낀 점
+## 4. 느낀 점
 
 * URL이 바뀌는데 화면이 부드럽게 바뀌는 건, 예전 MPA의 페이지 이동과 다르게 앱이 살아 있는 채로 화면만 갈아끼우는 것이라는 걸 체감했다.
 * 6주차 한 화면 구조와 비교하니, 정보 밀도와 주소 설계를 같이 고민해야 한다는 게 보였다.
