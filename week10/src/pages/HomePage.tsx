@@ -108,7 +108,12 @@ export default function HomePage({ auth, lionsBag, fetchBag }: HomePageProps) {
               form={addForm}
               controlsDisabled={controlsDisabled}
             />
-            <SummarySection lions={visibleLions} isEmpty={isEmpty} />
+            <SummarySection
+              lions={visibleLions}
+              isEmpty={isEmpty}
+              visibleCount={visibleLions.length}
+              totalCount={lions.length}
+            />
           </>
         )}
       </main>

@@ -1,5 +1,5 @@
 import './styles/style.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { useAuth } from './hooks/useAuth';
 import { useLions } from './hooks/useLions';
 import { useRandomUserFetch } from './hooks/useRandomUserFetch';
@@ -18,7 +18,7 @@ export default function App() {
   });
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -30,6 +30,6 @@ export default function App() {
         />
         <Route path="/login" element={<LoginPage auth={auth} />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

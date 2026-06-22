@@ -17,7 +17,7 @@ export default function LionSummaryCard({ lion }: LionSummaryCardProps) {
       state={{ from: listPath }}
       className={cardClassName}
       aria-labelledby={titleId}
-      aria-label={lion.isSelf ? '내 카드' : undefined}
+      aria-label={lion.isSelf ? `${lion.name} 내 카드, 상세 보기` : `${lion.name} 상세 보기`}
     >
       <figure className="summary-card__figure">
         <img
@@ -35,6 +35,7 @@ export default function LionSummaryCard({ lion }: LionSummaryCardProps) {
         </h3>
         <p className="summary-card__role">{lion.part}</p>
         <p className="summary-card__tagline">{lion.tagline}</p>
+        <span className="summary-card__cta">상세 보기</span>
       </section>
     </Link>
   );

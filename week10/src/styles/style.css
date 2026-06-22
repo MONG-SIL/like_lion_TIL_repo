@@ -63,10 +63,26 @@ h3 {
 }
 
 .summary-section h2 {
-	margin: 0 0 1rem;
+	margin: 0;
 	font-size: 1.25rem;
 	font-weight: 700;
 	color: #3a1970;
+}
+
+.summary-section__header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: 0.5rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.summary-section__count {
+	margin: 0;
+	font-size: 0.88rem;
+	font-weight: 800;
+	color: #6a4ea3;
 }
 
 .detail-section {
@@ -220,6 +236,13 @@ h3 {
 	font-size: 0.82rem;
 	color: #5b3e6a;
 	line-height: 1.4;
+}
+
+.summary-card__cta {
+	margin-top: 0.15rem;
+	font-size: 0.78rem;
+	font-weight: 800;
+	color: #6b46ff;
 }
 
 /* 상세 카드 */

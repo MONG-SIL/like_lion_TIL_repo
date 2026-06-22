@@ -68,20 +68,8 @@ export function useLions(isAuthenticated: boolean): UseLionsReturn {
 
     init();
 
-    const channel = supabase
-      .channel('lions-realtime')
-      .on(
-        'postgres_changes',
-        { event: '*', schema: 'public', table: 'lions' },
-        () => {
-          void loadLions();
-        }
-      )
-      .subscribe();
-
     return () => {
       mounted = false;
-      supabase.removeChannel(channel);
     };
   }, []);
 

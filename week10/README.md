@@ -21,6 +21,8 @@ yarn preview
 
 ## Vercel 배포
 
+Vercel이 Vite 프로젝트를 자동 감지하므로 별도 `vercel.json` 없이 배포합니다. 라우팅은 `HashRouter`를 사용합니다.
+
 1. GitHub 저장소의 **Root Directory**를 `week10`으로 설정합니다.
 2. Vercel 환경 변수에 아래 값을 등록합니다.
    - `VITE_SUPABASE_URL`
