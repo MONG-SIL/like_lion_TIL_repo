@@ -19,7 +19,7 @@
 
 ### 3. 배포 정보
 
-- **배포 URL:** _(Vercel 배포 후 기입)_
+- **배포 URL:** https://week10-ochre.vercel.app
 - **GitHub 저장소:** https://github.com/MONG-SIL/like_lion_TIL_repo
 - **Root Directory:** `week10`
 
@@ -30,8 +30,8 @@
 - [x] `console.log` / 불필요한 `console.error` 제거
 - [x] 미사용 import·컴포넌트·데이터 파일 정리
 - [x] `vercel.json` SPA rewrite 추가
-- [ ] Vercel 환경 변수 설정
-- [ ] Supabase Redirect URL 등록
+- [x] Vercel 환경 변수 설정
+- [ ] Supabase Redirect URL 등록 (`https://week10-ochre.vercel.app`)
 - [ ] 배포 URL에서 CRUD·로그인 동작 확인
 - [ ] 동료 2명 피드백 수집 (`FEEDBACK.md`)
 

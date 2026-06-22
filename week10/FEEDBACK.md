@@ -1,6 +1,6 @@
 # 동료 피드백 기록
 
-배포 URL: _(Vercel 배포 후 URL을 기입)_
+배포 URL: https://week10-ochre.vercel.app
 
 ## 제공한 피드백 (내가 동료에게)
 
