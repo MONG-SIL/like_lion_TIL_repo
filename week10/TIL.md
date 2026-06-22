@@ -23,19 +23,8 @@
 - **GitHub 저장소:** https://github.com/MONG-SIL/like_lion_TIL_repo
 - **Root Directory:** `week10`
 
-### 4. 프로덕션 점검 체크리스트
 
-- [x] `yarn build` 성공
-- [x] `yarn preview`에서 `/`, `/login`, `/lions/:id` 응답 확인
-- [x] `console.log` / 불필요한 `console.error` 제거
-- [x] 미사용 import·컴포넌트·데이터 파일 정리
-- [x] `vercel.json` SPA rewrite 추가
-- [x] Vercel 환경 변수 설정
-- [ ] Supabase Redirect URL 등록 (`https://week10-ochre.vercel.app`)
-- [ ] 배포 URL에서 CRUD·로그인 동작 확인
-- [ ] 동료 2명 피드백 수집 (`FEEDBACK.md`)
-
-### 5. 느낀 점
+### 4. 느낀 점
 
 - 로컬에서 잘 되던 앱도 배포하면 환경 변수·라우팅·인증 URL 때문에 한 번 더 막히는 경우가 많다. 배포는 "마지막 통합 테스트"라고 생각하면 된다.
 - 피드백을 반영해 카드 hover와 모바일 레이아웃을 손보니, 코드만 볼 때보다 실제 사용자 관점이 훨씬 분명해졌다.
